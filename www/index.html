@@ -58,27 +58,44 @@
   <body>
     <ons-page>
       <ons-toolbar>
-        <div class="center" style="text-align: center; font-family: cursive;">VTU SGPA and CGPA calculator</div>
+        <div class="center" style="text-align: center; font-family: cursive;">
+          VTU SGPA and CGPA calculator</div>
       </ons-toolbar>
-      <p style="text-align: center; font-family: cursive;"> Enter the numbers</p>
-  <div style="text-align: center; margin-top: 50px;" >
+      <p style="text-align: center; font-family: cursive;"> Enter the marks of each subject</p>
+  <div style="text-align: center; " >
   <p>
-    <ons-input id="n1" type="text" placeholder="Enter number 1" modifier="underbar" float ></ons-input>
+    <ons-input id="s1" type="text" placeholder="Enter gpa of sem1" modifier="underbar" float ></ons-input>
   </p>
-<br>
   <p>
     <ons-input
-      id="n2"
+      id="s2"
       type="text"
-      placeholder="Enter number 2"
+      placeholder="Enter gpa of sem2"
       modifier="underbar"
       float
     >
     </ons-input>
   </p>
-
   <p>
-    <ons-button onclick="add()">Add</ons-button>
+    <ons-input id="s3" type="text" placeholder="Enter gpa of sem3" modifier="underbar" float ></ons-input>
+  </p>
+  <p>
+    <ons-input id="s4" type="text" placeholder="Enter gpa of sem4" modifier="underbar" float ></ons-input>
+  </p>
+  <p>
+    <ons-input id="s5" type="text" placeholder="Enter gpa of sem5" modifier="underbar" float ></ons-input>
+  </p>
+  <p>
+    <ons-input id="s6" type="text" placeholder="Enter gpa of sem6" modifier="underbar" float ></ons-input>
+  </p>
+  <p>
+    <ons-input id="s7" type="text" placeholder="Enter gpa of sem7" modifier="underbar" float ></ons-input>
+  </p>
+  <p>
+    <ons-input id="s8" type="text" placeholder="Enter gpa of sem8" modifier="underbar" float ></ons-input>
+  </p>
+  <p>
+    <ons-button onclick="calculate()">Calculate</ons-button>
   </p>
 
   </div>

@@ -1,5 +1,5 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="vtu.sgpa.cgpa" version="1.0.0">
-  <name>vtu-sgpa-cgpa calculator</name>
+  <name>vtu-gpa calculator</name>
   <description>SGPA/CGPA sample application that responds to the deviceready event.</description>
   <author href="http://phonegap.com" email="support@phonegap.com">PhoneGap Team</author>
   <content src="index.html"/>
@@ -36,6 +36,7 @@
     <splash src="www/res/screen/android/drawable-port-xxxhdpi-screen.png" density="port-xxxhdpi"/>
   </platform>
   <platform name="ios">
+    <icon src="logo.png" width="144" height="144"/>
     <icon src="www/res/icon/ios/icon.png" platform="ios" width="57" height="57"/>
     <icon src="www/res/icon/ios/icon@2x.png" platform="ios" width="114" height="114"/>
     <icon src="www/res/icon/ios/icon-40.png" platform="ios" width="40" height="40"/>
